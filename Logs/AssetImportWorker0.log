@@ -1,0 +1,1503 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.27f1c2 (3b3d9646cb47) revision 3882390'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Editor\2021.3.27f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnityProject/Culling
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+4255
+Successfully changed project path to: E:/UnityProject/Culling
+E:/UnityProject/Culling
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5632] Host "[IP] 192.168.1.15 [Port] 0 [Flags] 2 [Guid] 3927346074 [EditorId] 3927346074 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MJMTVV5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5632] Host "[IP] 192.168.1.15 [Port] 0 [Flags] 2 [Guid] 3927346074 [EditorId] 3927346074 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MJMTVV5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 46.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.27f1c2 (3b3d9646cb47)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/2021.3.27f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProject/Culling/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Editor/2021.3.27f1c2/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Editor/2021.3.27f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Editor/2021.3.27f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Editor/2021.3.27f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002080 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (477ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009824 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (83.8 KB). Loaded Objects now: 3518.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 2.529400 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.184600 ms  DeleteObjects: 0.090100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006306 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (759ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (57.2 KB). Loaded Objects now: 3521.
+Memory consumption went from 111.6 MB to 111.6 MB.
+Total: 2.192500 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.933000 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1581109.705897 seconds.
+  path: Assets/FrustumCulling/DepthSettingsChecker.shader
+  artifactKey: Guid(5e6c1726d5e6fb94f879cb0a854581ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/DepthSettingsChecker.shader using Guid(5e6c1726d5e6fb94f879cb0a854581ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71879f3b9bc198807597bac0e29deb51') in 0.029874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.004300 seconds.
+  path: Assets/FrustumCulling/DepthSettingsChecker.cs
+  artifactKey: Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/DepthSettingsChecker.cs using Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236b905c81ef94648b3ef7f761275655') in 0.006865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.722594 seconds.
+  path: Assets/FrustumCulling/DepthSettingsChecker.shader
+  artifactKey: Guid(5e6c1726d5e6fb94f879cb0a854581ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/DepthSettingsChecker.shader using Guid(5e6c1726d5e6fb94f879cb0a854581ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6170e72b4d5b106eaedfa8c4112c4f1') in 0.001921 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006374 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (523ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (57.3 KB). Loaded Objects now: 3526.
+Memory consumption went from 111.7 MB to 111.6 MB.
+Total: 2.472200 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.075200 ms MarkObjects: 2.184700 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.619652 seconds.
+  path: Assets/FrustumCulling/DepthSettingsChecker.cs
+  artifactKey: Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/DepthSettingsChecker.cs using Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4865d0877ec269a1457b5c43bf8ac11c') in 0.005353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.599210 seconds.
+  path: Assets/FrustumCulling/DepthSettingsChecker.cs
+  artifactKey: Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/DepthSettingsChecker.cs using Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000514 seconds  code(4) message(Build asset version error: assets/frustumculling/depthsettingschecker.cs in SourceAssetDB has modification time of '2023-11-14T11:39:47.7340726Z' while content on disk has modification time of '2023-11-14T11:39:47.9116329Z')
+  ERROR: Build asset version error: assets/frustumculling/depthsettingschecker.cs in SourceAssetDB has modification time of '2023-11-14T11:39:47.7340726Z' while content on disk has modification time of '2023-11-14T11:39:47.9116329Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006515 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (540ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (57.3 KB). Loaded Objects now: 3529.
+Memory consumption went from 111.7 MB to 111.6 MB.
+Total: 2.567800 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.071300 ms MarkObjects: 2.290100 ms  DeleteObjects: 0.034800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.391595 seconds.
+  path: Assets/FrustumCulling/DepthSettingsChecker.cs
+  artifactKey: Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/DepthSettingsChecker.cs using Guid(ff6a425d6e9d57546aa57add1f4aa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a932058fa751499352a7a69d10da8ae0') in 0.005777 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007636 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (57.2 KB). Loaded Objects now: 3532.
+Memory consumption went from 111.7 MB to 111.6 MB.
+Total: 2.145400 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.078100 ms MarkObjects: 1.857500 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012191 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (697ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (57.3 KB). Loaded Objects now: 3535.
+Memory consumption went from 111.7 MB to 111.6 MB.
+Total: 2.364700 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.080900 ms MarkObjects: 2.085500 ms  DeleteObjects: 0.025600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.708678 seconds.
+  path: Assets/FrustumCulling/NewBehaviourScript.cs
+  artifactKey: Guid(7a0c3032a3c1acc409cd5725ade82498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/NewBehaviourScript.cs using Guid(7a0c3032a3c1acc409cd5725ade82498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7f59aba69ce2a10644997da4b07da7') in 0.006391 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (57.3 KB). Loaded Objects now: 3538.
+Memory consumption went from 111.7 MB to 111.6 MB.
+Total: 2.300700 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.070900 ms MarkObjects: 2.045500 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.813369 seconds.
+  path: Assets/FrustumCulling/NewBehaviourScript.cs
+  artifactKey: Guid(7a0c3032a3c1acc409cd5725ade82498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/NewBehaviourScript.cs using Guid(7a0c3032a3c1acc409cd5725ade82498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1768721507a09ba58b2a48bfa416f02f') in 0.005475 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (57.3 KB). Loaded Objects now: 3540.
+Memory consumption went from 111.7 MB to 111.6 MB.
+Total: 2.302600 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.050100 ms  DeleteObjects: 0.027600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.502122 seconds.
+  path: Assets/FrustumCulling/Instance.shader
+  artifactKey: Guid(d64c899ebdb9e4046ac644ac17a1a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/Instance.shader using Guid(d64c899ebdb9e4046ac644ac17a1a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6678aecd739d676e6b597311c107786') in 0.014724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.057084 seconds.
+  path: Assets/FrustumCulling/InstanceShader.shader
+  artifactKey: Guid(d64c899ebdb9e4046ac644ac17a1a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/InstanceShader.shader using Guid(d64c899ebdb9e4046ac644ac17a1a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3094df471739b00acb6a8243f25b695') in 0.003297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.208372 seconds.
+  path: Assets/FrustumCulling/InstanceShader.shader
+  artifactKey: Guid(d64c899ebdb9e4046ac644ac17a1a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FrustumCulling/InstanceShader.shader using Guid(d64c899ebdb9e4046ac644ac17a1a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a29dc69e9b54f872d7706bee2a71a99') in 0.002457 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006802 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.694 seconds
+Domain Reload Profiling:
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (85.7 KB). Loaded Objects now: 3543.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 2.306200 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.078400 ms MarkObjects: 1.971500 ms  DeleteObjects: 0.065000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 199.748175 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(642de76abeb217c429e41b56a5eea74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(642de76abeb217c429e41b56a5eea74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051015252d58c54fe8608a14ae52c197') in 0.006915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.825986 seconds.
+  path: Assets/HizCulling
+  artifactKey: Guid(642de76abeb217c429e41b56a5eea74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling using Guid(642de76abeb217c429e41b56a5eea74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc92421fa93a518c54659fc6e050cf55') in 0.001864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.680849 seconds.
+  path: Assets/HizCulling/Hiz.unity
+  artifactKey: Guid(05a1114416b39a1439d22c072d7ebaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/Hiz.unity using Guid(05a1114416b39a1439d22c072d7ebaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8bfbe99fc4bea0f18fb00e4289236') in 0.002442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.019971 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(82044efa5f7975e4c8e5f2a9db82070f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(82044efa5f7975e4c8e5f2a9db82070f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6794a1628e21866c0a32dc3959624bd8') in 0.001940 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (503ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (85.8 KB). Loaded Objects now: 3546.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 2.559200 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.227100 ms  DeleteObjects: 0.072300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.326630 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b997bc34c3bc43144bfce1b368879051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(b997bc34c3bc43144bfce1b368879051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da5ad96d0d54f58974432ce94fb86b0') in 0.005722 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (531ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (0.5 MB). Loaded Objects now: 3551.
+Memory consumption went from 113.0 MB to 112.5 MB.
+Total: 2.634300 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.070400 ms MarkObjects: 2.179900 ms  DeleteObjects: 0.216000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.288389 seconds.
+  path: Assets/Nicrom
+  artifactKey: Guid(1599a4b3e555de34bb2f6e3bac832ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom using Guid(1599a4b3e555de34bb2f6e3bac832ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3906c85427d17a075139ef8bd4c7df6') in 0.004948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.635119 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Ground_A1_100x100_01.prefab
+  artifactKey: Guid(e4b7ee855e6fe0640ae15f3068cf68d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Ground_A1_100x100_01.prefab using Guid(e4b7ee855e6fe0640ae15f3068cf68d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a9377eaccfbc5e5ee3b947d0822e7e') in 0.079582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.743636 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_40cm_01.prefab
+  artifactKey: Guid(b995a96a7ca36d04b851e46870b5aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_40cm_01.prefab using Guid(b995a96a7ca36d04b851e46870b5aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20815f21c028572f21767d9a25cd1442') in 0.208592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.939903 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Boulder_A1_01.prefab
+  artifactKey: Guid(aa0ba387f794005419a74fdfff3da4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Boulder_A1_01.prefab using Guid(aa0ba387f794005419a74fdfff3da4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663a44b76a4cb477918a38c924fb381a') in 0.013433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.074089 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Wall_A1_01.prefab
+  artifactKey: Guid(25cb56d59f80f614b9da0e9a36c48a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Wall_A1_01.prefab using Guid(25cb56d59f80f614b9da0e9a36c48a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd891faf1b0daecc7b7a860c8eacb10fe') in 0.008353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.290335 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_50cm_01.prefab
+  artifactKey: Guid(9c6178fe943216540b276b975dafae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_50cm_01.prefab using Guid(9c6178fe943216540b276b975dafae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392299a400bf881bf7a635a21d3233f6') in 0.011704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 377.645067 seconds.
+  path: Assets/HizCulling/InstanceGrass.shader
+  artifactKey: Guid(66b44948e8f13054a817f49d05910979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/InstanceGrass.shader using Guid(66b44948e8f13054a817f49d05910979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22584f19044be2a08e6dc0705a4d3cfa') in 0.002996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.952185 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc4b88085abef9f2bff6c004fbb78ca') in 0.002668 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007318 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Culling\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (737ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (109.7 KB). Loaded Objects now: 3563.
+Memory consumption went from 117.5 MB to 117.4 MB.
+Total: 2.420500 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.078200 ms MarkObjects: 2.086500 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.440328 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87459eb880fa3287d35c55e3c2364c8') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.999068 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1894d0005bf080e06e324834ee70e90') in 0.002066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.202261 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ccf1ea07f2c7bdc582255dadc5e7a5') in 0.001499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.203085 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f1b25ad91e3a3a4fb21c0939e02aa8') in 0.001271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.785778 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000409 seconds  code(4) message(Build asset version error: assets/hizculling/grassgenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:01:31.7439127Z' while content on disk has modification time of '2023-11-14T12:01:31.889016Z')
+  ERROR: Build asset version error: assets/hizculling/grassgenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:01:31.7439127Z' while content on disk has modification time of '2023-11-14T12:01:31.889016Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.555924 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f5653aa2a138314d721f54a323f262') in 0.001552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.173812 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff21843340e2da120ba7d1b2788ae662') in 0.001803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.591836 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75928f11fb9e7128ef0cc69d9f685065') in 0.001982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.824504 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de2d9511e7e0035f346b2e330693e9a') in 0.001485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.064301 seconds.
+  path: Assets/HizCulling/GrassGenerator.cs
+  artifactKey: Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/GrassGenerator.cs using Guid(8e96120fae7b85f4b8dbbae0353d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d901abea70b760e4fe3f0e5828f207') in 0.001692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.945981 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcddeb45a544ad94df5568df5e9042e') in 0.002009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.955809 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4d2897342ebce185a60c04f1b012bb') in 0.001757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.060745 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0fb4c271b26ce1d7277a2f7935e41e') in 0.003581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.349399 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6ca2ca214b987364fdd4c4548d2755') in 0.002169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.850727 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109192cc1d1b6e3b92fa70f5089e4027') in 0.001551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.554850 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73b257d8b812ac31a987146c231f4e2') in 0.001684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.795396 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2513bc39d39e612d28151a01edc3c82') in 0.001458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.806354 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de6acdb7755e204632eb8c79f4255ff') in 0.001640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.505845 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711bf0310748d3d1d559768596a0a97b') in 0.001644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.481463 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ecfde86d2f65bb98e7306f042a7a8d') in 0.001826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.669190 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059173a5aeee37662115be113f048ade') in 0.001532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.934294 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c316cfbba70a53434aa46555881cb7') in 0.001776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.862490 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0958968619a5fa4f29aa2d9cdd9d37ff') in 0.002005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.623058 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6c7d91e96734e5f9bee58920266ca2') in 0.002172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.705006 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e375bbcefb4a940be99c077ff35ce') in 0.002440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.574130 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e622cc3690cbca5a81bf0ec6c579a3') in 0.001393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.542325 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7067aefae848540b45a6c9bfb8c4d4bb') in 0.001501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.112747 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffda788253906d41a330e77a034e8252') in 0.001873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.983391 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cd55c822fd467c6047845b67088b7e') in 0.001881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.886237 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f14331fe5ee7112efc9e6f4f941c22') in 0.002324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.620019 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e916c7068864853848c23b3f191a9c2') in 0.002588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.302933 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c8444bd22ea6155e3163c829ceb386') in 0.001534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.602477 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b034cfd5ce5bc0f67e1c1305715633af') in 0.001457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.548369 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1dfeaccb6067ae4df5986244c11bc4') in 0.002346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.508360 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c354a320f52418c1e2b55b010040cf') in 0.002160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.615163 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529e8200b3af9b920846d5fb81560a69') in 0.001722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.365550 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecd1753d4bf417eb9e93aea673aca26') in 0.001706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.860434 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc1194242cb7fff2440eea7c6b661a3') in 0.001564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.939648 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000376 seconds  code(4) message(Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:09:22.6749723Z' while content on disk has modification time of '2023-11-14T12:09:22.8405837Z')
+  ERROR: Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:09:22.6749723Z' while content on disk has modification time of '2023-11-14T12:09:22.8405837Z'
+========================================================================
+Received Import Request.
+  Time since last request: 9.519605 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48eb2921431dd3ca2cb60463b017ee3f') in 0.001490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.903078 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2021aca6f695f9dfd348a377bb101a42') in 0.002377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.395142 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e96cb12d507b55a3984ba662203c14') in 0.001751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.116899 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6d0bd4bc2fadd25196d12891288a74') in 0.001401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.754741 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3747fe40f7ad14c669f3834d4bd7e399') in 0.001996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.113469 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf187d3f770c856fc7ee0acf9ffadec') in 0.001886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.468786 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55851ae614089bbc15ec8a0c39ba1cb') in 0.001261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.832564 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000902 seconds  code(4) message(Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:10:44.8380583Z' while content on disk has modification time of '2023-11-14T12:10:45.0056611Z')
+  ERROR: Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:10:44.8380583Z' while content on disk has modification time of '2023-11-14T12:10:45.0056611Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.419669 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7788fedfa7a148d7236ea757116d50d0') in 0.001925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.613279 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3021d73e4422b0923df65e53442f64f') in 0.002314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.776564 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c70914e1e8bd77f10d17238e83c0157') in 0.001984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.521788 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000401 seconds  code(4) message(Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:11:13.2091405Z' while content on disk has modification time of '2023-11-14T12:11:13.3489306Z')
+  ERROR: Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:11:13.2091405Z' while content on disk has modification time of '2023-11-14T12:11:13.3489306Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.615620 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3663338c9bb1fe9cc4adaccd0e44bb') in 0.002263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.668376 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279abd5755513eaeb52dcb3874e17048') in 0.001555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.551393 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbddcf0df14101832a4f99060c5b9a6') in 0.001585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.865609 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375d87bf23e027cefcd55468f15dd002') in 0.001690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 323.687021 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d38f663388054dc73842d63f826eb6b') in 0.002107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.548435 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1102e9b0689d6318a81256ffc730d36b') in 0.002996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.512567 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c629c5bf7f77d7ea270bdd56d5beb3ed') in 0.001584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.483155 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ff9fa8e811b7155c00d0480e74d571') in 0.001878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.439577 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d1c0e13f411998de5c8944295705d3') in 0.001406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.512337 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf69bd335325b6e2b81d7c4f69bd88e') in 0.002007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.410529 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadf9f2e8a829acfdb70cac9b7d91023') in 0.002595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.453035 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3849b5aa5f3cfa9114afa8990789d913') in 0.001639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.032316 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000688 seconds  code(4) message(Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:17:38.0666065Z' while content on disk has modification time of '2023-11-14T12:17:38.2119823Z')
+  ERROR: Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:17:38.0666065Z' while content on disk has modification time of '2023-11-14T12:17:38.2119823Z'
+========================================================================
+Received Import Request.
+  Time since last request: 39.258997 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcd30035026646885038f998594a45b') in 0.002663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.168381 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea71ed48f6a2379feac46ab1ae0de436') in 0.001760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.944344 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77407a3e8a9e259d0e9ddc35cc94889f') in 0.002236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.833511 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758e700a2e098af96d9ce2ff88bbacff') in 0.002060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.026280 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9beaa1ad0c43175ac82c6de8f2b7c408') in 0.002451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.174840 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfdd18040ed49269d13a59da6248603') in 0.001402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.349891 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b70be6edf568bcf976ffe7379441af7') in 0.001854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.707465 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4fdf070ac868e28338000f82a8820e') in 0.002055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.693456 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ea5770ada97870c91668e9bc208f73') in 0.001799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.136932 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac665cf82adc0dd0a01e122ccb8ea2b4') in 0.001488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.817338 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c568912f5334b57c27966f1dcbda72') in 0.001251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.813140 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6271191f1119006af587b1dee4b714e4') in 0.001778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.727545 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0669652cb7989c21fbc9c23deeacda') in 0.001878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.631294 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000371 seconds  code(4) message(Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:20:20.3915761Z' while content on disk has modification time of '2023-11-14T12:20:20.563725Z')
+  ERROR: Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:20:20.3915761Z' while content on disk has modification time of '2023-11-14T12:20:20.563725Z'
+========================================================================
+Received Import Request.
+  Time since last request: 6.403066 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd56de8412d854a002c18a0dcba2aa23') in 0.001870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.228567 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000550 seconds  code(4) message(Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:20:29.040913Z' while content on disk has modification time of '2023-11-14T12:20:29.2046341Z')
+  ERROR: Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:20:29.040913Z' while content on disk has modification time of '2023-11-14T12:20:29.2046341Z'
+========================================================================
+Received Import Request.
+  Time since last request: 4.136269 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a653d0875dd447c48a87bdf1262fb97') in 0.001651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.215514 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eb670804493a935bf3dee7486f242b') in 0.001769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.640138 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6688dcba8bc13010238724b8ee76d5b') in 0.002106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.957680 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000401 seconds  code(4) message(Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:21:31.9924541Z' while content on disk has modification time of '2023-11-14T12:21:32.1855641Z')
+  ERROR: Build asset version error: assets/hizculling/depthtexturegenerator.cs in SourceAssetDB has modification time of '2023-11-14T12:21:31.9924541Z' while content on disk has modification time of '2023-11-14T12:21:32.1855641Z'
+========================================================================
+Received Import Request.
+  Time since last request: 4.430592 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b80b112a426babe680c1e56dffb9ec') in 0.001994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.190244 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3933495a5394c30df7688c6ad6cce9e1') in 0.001382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.382516 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df760fca9e1369fa1b58f4dcb6ccbef1') in 0.001506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.203082 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ef1231be0ada1e61c065e1d1753a48') in 0.002113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.832792 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba9f5fdaa34f18c866226d4a7e40162') in 0.001590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.516690 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c6e37ecfef40e490cc284115743d46') in 0.001632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.678444 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350cf3ab5549267301fa2f2c940141ad') in 0.001405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.921570 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bd92120c96d265bdfe9aeec9c79bcc') in 0.002516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.230233 seconds.
+  path: Assets/HizCulling/DepthTextureGenerator.cs
+  artifactKey: Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HizCulling/DepthTextureGenerator.cs using Guid(b73a115fabb65a24f96928bb36aa6866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b928b1170707c2f2047a003ddfd5d1') in 0.002071 seconds 
